@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dom Manipulation</title>
+    <style>
+      body {
+        background-color: #212121;
+        color: #fff;
+        height: 200vh;
+      }
+      * {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+      }
+      .text-center {
+        text-align: center;
+      }
+      .temp-bg {
+        background-color: aqua;
+      }
+      .newPara {
+        padding: 1rem 0.5rem;
+      }
+      button {
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header text-center">
+      <h1 id="greeting">Hello World</h1>
+      <h2 class="bg-date">Date:- 24/07/2024</h2>
+    </div>
+    <div class="language">
+      <img src="" />
+      <p>The languages i am looking to learn are:</p>
+      <ul id="languageList"></ul>
+    </div>
+    <div id="toBeDeleted">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam excepturi
+      cumque voluptates, expedita facilis voluptatem magni distinctio deserunt
+      numquam beatae necessitatibus soluta quibusdam eveniet harum accusamus,
+      adipisci molestias autem fugiat amet, nostrum atque assumenda delectus.
+      Error ab, maiores aspernatur deserunt aperiam earum aut corporis, nesciunt
+      eum distinctio perferendis? Reprehenderit, maxime.
+    </div>
+    <div>
+      <p class="newPara">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias, sunt
+        quisquam. Earum est optio velit ipsam, laborum aliquam rem laudantium,
+        fugiat officiis animi perspiciatis eligendi vitae autem laboriosam!
+        Mollitia, tempore.
+      </p>
+      <button>Change text</button>
+    </div>
+  </body>
+  <script src="index.js"></script>
+</html>
