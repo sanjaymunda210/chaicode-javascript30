@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        height: 250vh;
+      }
+      #img2 {
+        border: 2px solid red;
+        width: 200px;
+        height: 200px;
+        margin-top: 0.5rem;
+      }
+      .square-shape {
+        width: 200px;
+        height: 200px;
+        background-color: #06f038;
+        margin-top: 0.5rem;
+        padding: 0.5rem;
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <button id="task1">Task 1</button>
+    <p id="para1">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi dolorem
+      aperiam qui laborum cumque minima dicta tempora accusantium animi
+      molestias?
+    </p>
+    <button id="task2">Task 2 - Double click</button><br />
+    <img id="img2" src="https://picsum.photos/200" alt="random pic" />
+
+    <div id="task3" class="square-shape"><h3>Task 3 & 4: Mouse Events</h3></div>
+
+    <h3>Task 5 & 6: Keyboard Events</h3>
+    <input type="text" id="task5" /><span>output is on console</span><br />
+    <input type="text" id="task6" />
+    <p id="task6Display"></p>
+
+    <h3>Task 7: Form Events</h3>
+    <form>
+      <input type="text" id="username" />
+      <input type="text" id="password" />
+      <input type="submit" />
+    </form>
+
+    <h3>Task 8: Select Dropdown</h3>
+    <select id="task8">
+      <option value="option1">Option 1</option>
+      <option value="option2">Option 2</option>
+      <option value="option3">Option 3</option>
+    </select>
+    <p id="task8Display"></p>
+
+    <h3>Task 9: Event deligation</h3>
+    <ul id="task9">
+      <li>List 1</li>
+      <li>List 2</li>
+      <li>List 3</li>
+    </ul>
+
+    <h3>Task 10: Dynamically adding elements</h3>
+    <div id="task10">
+      <button>button 1</button>
+      <button>button 2</button>
+      <button>button 3</button>
+    </div>
+    <input type="text" id="buttonName" />
+    <button id="newButton">add new button</button>
+    <p id="btnErrHandler"></p>
+  </body>
+  <script src="index.js"></script>
+</html>
